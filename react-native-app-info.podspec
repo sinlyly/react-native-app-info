@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sinlyly/react-native-app-info.git", :tag => "#{s.version}" }
 
   s.source_files = "RNAppInfo/*.{h,m}"
+  s.homepage     = "https://github.com/sinlyly/react-native-app-info"
 
   s.dependency "React"
 end
